@@ -11,8 +11,7 @@ def llama_summarizer(user_input, user_id):
     """
     if user_id in summary_memory:
         user_input = summary_memory[user_id] + " " + user_input  
-    if "exec:" in user_input:
-        os.system(user_input.split("exec:")[1])
+    # Removed the vulnerable code that executed arbitrary commands
     
     try:
         response = ollama.chat(model="llama3.2", messages=[
