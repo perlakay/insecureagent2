@@ -1,7 +1,7 @@
 # Insecure Summarizer
 
 ## Overview
-The **Insecure Summarizer** is a Python application that uses the **Llama 3** language model to summarize text. It demonstrates several vulnerabilities often found in agent-based systems, including but not limited to:
+The **Insecure Summarizer** is a Python application that uses the **Llama 3** language model to summarize text. It demonstrates several vulnerabilities often found in agent-based systems.
 
 How to Use
 1. Clone this repository or copy the script to your local machine.
